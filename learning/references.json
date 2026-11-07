@@ -1,0 +1,28 @@
+{
+  "checked_on": "2026-11-07",
+  "repositories": [
+    {
+      "path": "AI-System",
+      "url": "https://github.com/microsoft/AI-System.git",
+      "commit": "2a974e1a483eb5c2f714ba5001ac33d8c58998d5"
+    },
+    {
+      "path": "AI-fundamentals",
+      "url": "https://github.com/ForceInjection/AI-fundamentals.git",
+      "commit": "9d2091a045094edf4ace3fe34e7858e953ef585c"
+    },
+    {
+      "path": "aik8s",
+      "url": "https://github.com/runzhliu/aik8s.git",
+      "commit": "434ffed2c255a0a1449502bf141c0b7db8de042e"
+    }
+  ],
+  "pending_repositories": [
+    {
+      "path": "InfraTech",
+      "url": "https://github.com/CalvinXKY/InfraTech.git",
+      "commit": null,
+      "reason": "2026-11-07 建档检查时 HEAD 尚不可读；保留用户正在克隆的目录，完成后补录版本。"
+    }
+  ]
+}

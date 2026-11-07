@@ -1,0 +1,38 @@
+# 参考仓库保留各自 Git 历史，来源与版本见 learning/references.json。
+/AI-System/
+/AI-fundamentals/
+/aik8s/
+/InfraTech/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+.env
+.env.*
+!.env.example
+/learning/.lock
+*.tmp
+
+# 模型、数据、论文原件及大体积 profiling 产物；提交摘要、配置和小型结果。
+/papers/*
+!/papers/README.md
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.engine
+*.nsys-rep
+*.ncu-rep
+*.sqlite
+**/checkpoints/
+**/datasets/
+**/raw_profiles/
+
+# 本机工具和编辑器配置。
+/.private/
+/.idea/
+/.vscode/
+/instrall.py

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "timezone": "Asia/Shanghai",
+  "plan_start": "2026-11-07",
+  "weekly_hours": [
+    10,
+    15
+  ],
+  "time_budget_confirmed": false,
+  "target": "target/README.md",
+  "background_source": "2026-11-07 用户自述，尚未做能力诊断",
+  "background": "最近几年一直做算法，了解大模型、推理、部署和框架，但理解较浅，具体算法实现和计算分析写不出来。",
+  "focus_gaps": [
+    "独立实现 Transformer 推理",
+    "张量形状、计算量与显存分析",
+    "推理引擎源码与二次开发",
+    "CUDA 与性能分析"
+  ],
+  "unknowns": [
+    "每周实际可投入时间",
+    "面试日期",
+    "可用 GPU 型号和数量",
+    "是否有昇腾环境",
+    "PyTorch/C++ 独立编码熟练度"
+  ],
+  "first_goal": "独立实现支持 KV Cache 的小型 Transformer，解释形状、FLOPs、显存并验证正确性"
+}
