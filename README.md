@@ -68,7 +68,7 @@ git diff --cached
 git commit -m "study(T01): 记录 Attention 形状推导与验收"
 ```
 
-每次学习结束提交一次有意义的成果；工具可以更新学习记录，提交只包含本次学习相关文件。当前是本地 Git 项目，远端托管地址尚未配置。
+每次学习结束提交一次有意义的成果；工具可以更新学习记录，提交只包含本次学习相关文件。学习日志、总结、进度和代码通过 GitLab 在多台电脑同步，操作见 [多电脑同步指南](learning/SYNC.md)。用 `git remote -v` 查看本机远端配置。
 
 已有的 `AI-System/`、`AI-fundamentals/`、`aik8s/` 作为独立参考仓库保留，主仓库不重复纳入其文件和历史；来源及当前提交记录在 [references.json](learning/references.json)，重建方法见 [资料索引](learning/RESOURCES.md)。
 

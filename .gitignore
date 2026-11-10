@@ -17,8 +17,9 @@ venv/
 *.tmp
 
 # 模型、数据、论文原件及大体积 profiling 产物；提交摘要、配置和小型结果。
-/papers/*
-!/papers/README.md
+/papers/**
+!/papers/**/
+!/papers/**/*.md
 *.safetensors
 *.pt
 *.pth
