@@ -1,6 +1,6 @@
-# GitLab 多电脑同步
+# GitHub 多电脑同步
 
-GitLab 保存整个学习助手，以及个人学习日志、总结、进度、练习代码和小型实验结果。只在本机保存但未 commit、未 push 的内容，另一台电脑无法取得。`scripts/study.py` 负责记档与生成面板，不自动调用 Git 或上传。
+GitHub 保存整个学习助手，以及个人学习日志、总结、进度、练习代码和小型实验结果。只在本机保存但未 commit、未 push 的内容，另一台电脑无法取得。`scripts/study.py` 负责记档与生成面板，不自动调用 Git 或上传。
 
 ## 同步范围
 
@@ -17,10 +17,10 @@ GitLab 保存整个学习助手，以及个人学习日志、总结、进度、�
 
 ## 新电脑第一次使用
 
-先配置该电脑访问 GitLab 的 SSH Key 或 HTTPS 凭据，然后用 GitLab 项目页面的实际克隆地址替换占位符：
+远端仓库：https://github.com/chenchunhui97/ai2me 。先配置该电脑访问 GitHub 的 SSH Key 或 HTTPS 凭据，再克隆：
 
 ```bash
-git clone <GitLab仓库克隆地址> my-learn
+git clone https://github.com/chenchunhui97/ai2me.git my-learn
 cd my-learn
 python3 scripts/study.py check
 python3 scripts/study.py status
@@ -44,7 +44,7 @@ python3 scripts/study.py next
 
 ## 学习结束并同步
 
-让助手执行：“今天收工，保存学习日志、总结和进度，并推送到 GitLab。”也可以手动执行：
+让助手执行：“今天收工，保存学习日志、总结和进度，并推送到 GitHub。”也可以手动执行：
 
 ```bash
 python3 scripts/study.py check
