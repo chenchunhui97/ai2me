@@ -10,7 +10,7 @@
 
 | ID / 计划日期 | 任务 | 验收条件 | 成果位置 | 状态 |
 |---|---|---|---|---|
-| T01<br>2026-11-07 ～ 2026-11-08 | Attention 张量形状与能力诊断 | 不看答案写出 X、Wq/Wk/Wv、Q/K/V、scores、输出的形状，说明每一步运算及广播。<br>独立完成 B=1,S=1024,H=2048,Qheads=16,KVheads=4,d=128 的形状题，并完成 B=2,S=17 的变式。<br>明确记录哪些步骤独立完成、哪些需要提示；用小张量代码验证形状，不计为掌握完整 Attention。 | [my_knowledge/attention](../my_knowledge/attention/) | 未开始 |
+| T01<br>2026-11-07 ～ 2026-11-08 | Attention 张量形状与能力诊断 | 不看答案写出 X、Wq/Wk/Wv、Q/K/V、scores、输出的形状，说明每一步运算及广播。<br>独立完成 B=1,S=1024,H=2048,Qheads=16,KVheads=4,d=128 的形状题，并完成 B=2,S=17 的变式。<br>明确记录哪些步骤独立完成、哪些需要提示；用小张量代码验证形状，不计为掌握完整 Attention。 | [my_knowledge/attention](../my_knowledge/attention/) | 学习中 |
 | T02<br>2026-11-09 ～ 2026-11-10 | 单头 Attention、稳定 Softmax 与 causal mask | 用 PyTorch 基础张量运算实现单头 causal attention，不调用现成 attention 接口。<br>解释缩放项、稳定 Softmax、mask 位置与广播；用固定随机种子和参考实现比较输出误差。<br>覆盖长度 1、非整齐长度和未来 token 扰动不影响先前输出的用例。 | [labs/01-attention](../labs/01-attention/) | 未开始 |
 | T03<br>2026-11-11 ～ 2026-11-13 | Multi-Head Attention 与形状变换 | 独立实现 QKV 投影、split heads、Attention、merge heads 与输出投影。<br>解释 transpose/reshape/contiguous、权重布局，完成不同 batch/长度的正确性对齐。<br>复盘本周至少一个具体错误，脱离参考重写核心计算。 | [labs/01-attention](../labs/01-attention/) | 未开始 |
 
